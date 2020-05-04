@@ -24,6 +24,10 @@ const Container = styled.section`
         background-repeat: no-repeat;
         height: 100%;
         opacity: .0777;
+        max-width: 50%;
+        @media (max-width: 500px) {
+            background-size: contain;
+        }
     }
 `
 
