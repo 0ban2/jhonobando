@@ -23,7 +23,7 @@ const Container = styled.section`
         background-image: url(${jo});
         background-repeat: no-repeat;
         height: 100%;
-        opacity: .0777;
+        opacity: .2;
         max-width: 50%;
         @media (max-width: 500px) {
             background-size: contain;
