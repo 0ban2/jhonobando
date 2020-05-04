@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SayHello from './components/Hello';
+import ReactTypingEffect from 'react-typing-effect';
+import Imagen from './components/Image';
+import Container from './components/Container';
+import Photo from './images/jhonobando.png';
 
 function App() {
+  const name = ['Jhon Obando', 'Web developer']
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{textAlign: "center"}}>
+      <Container>
+          <Imagen>
+            <img src={Photo} alt="Jhon Obando"/>
+          </Imagen>
+          <SayHello text={name}
+            as={ReactTypingEffect}
+            typingDelay="500"
+            eraseDelay="1000"
+            cursor=""
+          />
+      </Container>
     </div>
   );
 }
