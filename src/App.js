@@ -1,5 +1,6 @@
 import React from 'react';
 import SayHello from './components/Hello';
+import Email from './components/Email';
 import ReactTypingEffect from 'react-typing-effect';
 import Imagen from './components/Image';
 import Container from './components/Container';
@@ -19,6 +20,7 @@ function App() {
             eraseDelay="1000"
             cursor=""
           />
+          <Email href="mailto:hola@jhonobando.cl">hola@jhonobando.cl</Email>
       </Container>
     </div>
   );
