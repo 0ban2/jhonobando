@@ -7,7 +7,7 @@ import Container from './components/Container';
 import Photo from './images/jhonobando.png';
 
 function App() {
-  const name = ['Jhon Obando', 'Web developer']
+  const name = ['Jhon Obando', 'Web UI developer']
   return (
     <div className="App" style={{textAlign: "center"}}>
       <Container>
