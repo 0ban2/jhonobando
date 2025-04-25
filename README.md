@@ -4,5 +4,5 @@
 
 ## Script for run
 ```
-  yarn && yarn dev
+  npm i && npm run dev
 ```
